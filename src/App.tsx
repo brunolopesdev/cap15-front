@@ -17,7 +17,7 @@ function App() {
     event.preventDefault();
 
     try {
-      const response = await axios.post("http://localhost:3333/users", {
+      const response = await axios.post("https://cap15-back.vercel.app/users", {
         name: formData.name,
         email: formData.email,
         password: formData.password,
